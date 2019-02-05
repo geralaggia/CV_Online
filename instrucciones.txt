@@ -1,0 +1,45 @@
+﻿Dentro de <style> irá todo lo referente al CSS. 
+
+
+Estructura de una clase: 
+
+.clase{
+	atributo1: ;
+	atributo2: ;
+	atributo3: ;
+}
+
+
+Etiquetas a utilizar (Atributos):
+
+- cuando se agrega un atributo a una clase siempre al final debe llevar ";" 
+-
+ font-size: ; (Tamaño de la fuente ejemplo 15px - px = pixeles ) 
+- color: ;
+(El color que va a tener la fuente ejemplo: 
+
+Para poner en color rojo:
+ - red
+ - rgb(255, 0, 0) (formato rgb)  
+(próxima clase vamos a entrar mas profundo en este concepto)
+ - #ff0000 (formato hexadecimal) 
+(próxima clase vamos a entrar mas profundo en este concepto)
+) 
+
+- background-color:; 
+(color de fondo, se utiliza las mismas opciones que color)
+
+- 
+margin (Con esto se dan los margenes y tiene 4 opciones:
+ - margin-top:; margen superior
+ - margin-bottom:; margen inferior
+ - 
+margin-left:; margen izquierdo
+ - margin-right:; margen derecho)
+
+____________________________
+
+
+Dentro de <Body>:
+
+La etiqueta a utilizar es <div class=""> acá va el texto </div> 

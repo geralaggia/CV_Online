@@ -1,0 +1,257 @@
+
+
+body{
+  background-color: #3ec1d3;
+}
+
+/*HEADER*/
+header{
+  margin-top: 25px;
+  margin-left: 12%;
+  margin-right: 20%;
+  margin-bottom: 0;
+  width: 70%;
+  float: left;
+}
+
+/*FOTO*/
+img.mi_foto{
+  border-radius: 100%;
+  width: 20%;
+  height: 20%;
+  float: left;
+  margin-right: 2%;
+  box-shadow: 1px 1px 2px #ff165d, 2px 2px 3px #ff9a00, 3px 3px 4px #f6f7d7;
+}
+
+/*Barra de contacto y redes sociales*/
+div.contacto{
+position: absolute;
+margin-top: 15%;
+padding: 0;
+margin-left:30px;
+}
+
+div.contacto img{
+  width: 20px;
+  cursor: pointer;
+}
+
+div.contacto img:hover{
+  width: 22px;
+}
+
+/*PRESENTACIÓN*/
+div.presentacion{
+  background-color: #f6f7d7;
+  border-radius: 10px;
+  float: right;
+  width: 74%;
+  padding-left: 2%;
+  padding-right: 1%;
+  color:#393E46;
+  padding-bottom: 2%;
+}
+
+header h1{
+  color: #ff9a00;
+  font-size: 4em;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: 'Merienda', cursive;
+ }
+
+ header h4{
+   font-size: 2em;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   font-family: 'Roboto', sans-serif;
+ }
+
+ header h2{
+   font-family: 'Roboto', sans-serif;
+ }
+
+/*MENU*/
+nav.menu{
+  float: left;
+  margin-top: 19%;
+  margin-left: 7%;
+  width:20%;
+  position: fixed;
+  word-wrap: break-word;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav ul li{ /* podría usar la class boton*/
+background-color: #f6f7d7;
+border-radius: 5px;
+padding: 5px 0px 5px 0px;
+list-style: none;
+text-align: center;
+font-size: 1.5em;
+margin-top: 20px;
+}
+
+nav ul li:hover{ /* efecto al pasar el cursor sobre el boton*/
+  font-size: 1.65em;
+  background-color: #ff165d;
+}
+
+nav ul li a{
+  color: #ff9a00;
+  border-radius: 10px;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer; /*cambia el cursor cuando pasa sobre el boton*/
+  text-decoration: none;
+}
+
+/*ARTICULOS generales*/
+article{
+  background-color: #f6f7d7;
+  border-radius: 10px;
+  padding-left: 2%;
+  overflow:hidden;
+  margin-bottom: 2%;
+  font-family: 'Roboto', sans-serif;
+}
+
+article h1{
+  width: 98%;
+  font-size: 2em;
+  border-bottom: 2px solid #3ec1d3;
+  font-family: 'Merienda', cursive;
+  color: #ff9a00;
+}
+
+article h2{
+  width: 80%;
+  font-size: 1.5em;
+  border-bottom: 2px solid #ff9a00;
+  font-family: 'Merienda', cursive;
+  color:#3ec1d3;
+}
+
+/*CONTENIDO*/
+div.contenido{
+  margin-right: 18%;
+  margin-top: 1%;
+  width: 53.2%;
+  float: right;
+  margin-bottom: 12px;
+}
+
+div.contenido article ul{
+  font-size: 1.2em;
+  line-height: 120%;
+  list-style: square inside url(viñeta/Bulleted.png);
+}
+
+/*SECTION generales*/
+section{
+  padding-left: 1%;
+  border-radius: 10px;
+  width: 90%;
+  margin-top: 1%;
+  margin-left: 4%;
+}
+
+/*SKILLS*/
+section.soft{
+  overflow: hidden;
+  margin-bottom: 1%;
+  padding-bottom: 1%;
+}
+
+section.soft h2{
+  width: 90%;
+}
+
+section.hard{
+  overflow: hidden;
+  margin-bottom: 1%;
+  padding-bottom: 2%;
+}
+
+section.hard h2{
+  width: 90%;
+}
+
+ul.ordenar1{
+  margin:0px;
+  float: left;
+  width: 40%;
+}
+
+ul.ordenar2{
+  margin:0px;
+  float:right;
+  width: 40%;
+}
+
+/*PORTFOLIO*/
+section.portfolio{
+  border: none;
+  overflow:hidden;
+}
+
+   /*imagenes del portfolio*/
+img.imgport{
+  float:left;
+  margin-left: 10px;
+  border-radius: 100%;
+  width: 22%;
+  cursor: pointer;
+}
+
+/*RETORNO AL PRINCIPIO*/
+div.i_ll_be_back{
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  margin-top: 1%;
+  padding-bottom:2%;
+  border-top: 1px solid #3ec1d3;
+}
+div.i_ll_be_back a{
+  text-decoration: none;
+  color: #ff9a00;
+  font-weight: bold;
+  font-style: italic;
+  cursor: pointer;
+}
+
+div.i_ll_be_back a:hover{
+  color: #ff165d;
+}
+
+/*Retorno para la sección "experiencia"*/
+article#experiencia a.arriba{
+  float:left;
+}
+
+/*Referencias de "experiencia"*/
+a.referencias{
+  text-decoration: none;
+  float: right;
+}
+
+a.referencias img{
+  width: 20px;
+  cursor: pointer;
+  float: left;
+  margin-bottom: 5%;
+}
+
+a.referencias p{
+  cursor: pointer;
+  color: #ff9a00;
+  font-family: 'Merienda', cursive;
+  font-size: 0.8em;
+  margin: 0;
+  padding: 0;
+}
+
+a.referencias p:hover{
+  color: #ff165d;
+}

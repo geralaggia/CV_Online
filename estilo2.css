@@ -1,0 +1,86 @@
+body{
+
+}
+
+nav{
+ margin:0 auto;
+ /*position: fixed;*/
+}
+
+nav ul{
+  padding: 0;
+  display: inline;
+  background-color: black;
+}
+
+nav ul li{
+  list-style: none;
+  text-align: center;
+  border-radius: 2px;
+}
+
+nav ul li a:hover{
+  background-color: pink;
+}
+
+nav ul li a{
+  color: black;
+  background-color: lightgrey;
+  margin-left: 1px;
+  margin-right: 1px;
+  padding: 10px;
+  text-decoration: none;
+  float: left;
+}
+
+header{
+  float: left;
+  border: 2px solid grey;
+  border-radius: 10px;
+  margin:0 auto;
+  margin-top: 10px;
+}
+
+header img{
+ float: left;
+ border:groove;
+ border-radius: 100%;
+ margin-left: 1%;
+ margin-right: 1%;
+}
+
+header div{
+padding-left: 1%
+
+}
+
+header div h1{
+margin-left: 28%;
+width: 98%;
+border-bottom: 2px solid lightblue;
+}
+
+header div h2{
+
+}
+
+header div h4{
+font-size: 50px;
+padding: 0px;
+margin:0px;
+}
+
+article{
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+section{
+  float: left;
+  margin: 0 auto;
+}
+
+section.personales{
+  border-radius: 10px;
+  border: 2px solid grey;
+}
